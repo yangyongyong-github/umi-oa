@@ -1,15 +1,22 @@
-# umi project
+# 人事后台管理系统
 
-## Getting Started
+## 简介
 
-Install dependencies,
+使用umi.js开发一个人事后台管理系统，主要功能有管理员登录系统，查看和对员工信息进行操作，例如用户（管理员）登录忘记密码时进行密码重置，修改和上传用户头像，查看员工考勤情况，对员工完成调薪操作，使用echarts图表来更好的展示员工的婚姻、学历、年龄等分布情况，以及新增和删除员工等众多功能。
 
-```bash
-$ yarn
-```
+开发过程中，注重公共组件封装、通过UMI及DVA进行工程搭建及状态管理、实现了主导一个完整的后台管理系统前端部分的业务制作等。
 
-Start the dev server,
+## 技术栈 
+React(Hook),Umi3,Echarts,Dayjs,antDesign
 
-```bash
-$ yarn start
+
+***********************************************
+
+
+```shell
+
+yarn # 安装依赖
+
+yarn start # 启动工程
+
 ```
